@@ -1,0 +1,26 @@
+name: gsae
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch::pytorch>=2.1.0
+  - pytorch::torchaudio
+  - pytorch::torchvision
+  - pytorch-cuda=12.1
+  - huggingface_hub
+  - transformers
+  - accelerate
+  - datasets
+  - outlines
+  - scikit-learn
+  - scipy
+  - numpy
+  - pandas
+  - pydantic
+  - pip
+  - pip:
+    - einops
+    - tqdm
